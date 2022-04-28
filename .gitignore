@@ -1,0 +1,4 @@
+*/.wine
+*/.nix-shell-inputs
+*/src/*
+*/logs
