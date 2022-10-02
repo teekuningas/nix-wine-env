@@ -2,7 +2,7 @@ install: src/setup.exe
 	bash install.sh
 
 run: .wine
-	bash run.sh
+	nix run --override-input nixpkgs nixpkgs/nixos-20.09 --impure github:guibou/nixGL -- bash run.sh
 
 shell:
-	nix-build shell.nix -A inputDerivation -o .nix-shell-inputs && nix-shell
+	nix develop
