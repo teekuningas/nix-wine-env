@@ -12,7 +12,7 @@
       pkgs = nixpkgs.legacyPackages.x86_64-linux;
       nixGLIntel = nixgl.packages.x86_64-linux.nixGLIntel;
 
-      pkgs-latest = nixpkgs.legacyPackages.x86_64-linux;
+      pkgs-latest = nixpkgs-latest.legacyPackages.x86_64-linux;
 
       winetricks = pkgs-latest.winetricks;
 
