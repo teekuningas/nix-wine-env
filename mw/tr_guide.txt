@@ -1,0 +1,18 @@
+- update openmw.cfg:
+```
+        fallback-archive=TR_Data.bsa
+        fallback-archive=PC_Data.bsa
+        fallback-archive=Sky_Data.bsa
+...
+        data="<PATH>Tamriel_Data"
+        data="<PATH>Tamriel Rebuilt"
+```
+
+ update morrowind.ini:
+```
+...
+Archive 2=TR_Data.bsa
+Archive 3=PC_Data.bsa
+Archive 4=Sky_Data.bsa
+```
+
