@@ -1,11 +1,12 @@
 - update openmw.cfg:
 ```
-        fallback-archive=TR_Data.bsa
-        fallback-archive=PC_Data.bsa
-        fallback-archive=Sky_Data.bsa
+fallback-archive=TR_Data.bsa
+fallback-archive=PC_Data.bsa
+fallback-archive=Sky_Data.bsa
 ...
-        data="<PATH>Tamriel_Data"
-        data="<PATH>Tamriel Rebuilt"
+data="/home/zairex/nix-wine-env/mw/.wine/drive_c/GOG Games/Morrowind/Data Files"
+data="/home/zairex/nix-wine-env/mw/data/Tamriel_Data"
+data="/home/zairex/nix-wine-env/mw/data/Tamriel_Rebuilt"
 ```
 
  update morrowind.ini:
